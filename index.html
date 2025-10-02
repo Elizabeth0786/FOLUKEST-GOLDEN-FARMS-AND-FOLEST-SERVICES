@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm & Feast | Farm-Fresh Poultry & Snack Catering</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <div class="logo-icon">🐓</div>
+                    <div class="logo-text">FOLUKEST GOLDEN FARM & <span>FOLEST SERVICES</span></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="poultry">Fresh Poultry Shop</a></li>
+                        <li><a href="#" class="nav-link" data-page="catering">Snack Catering</a></li>
+                        <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+                        <li><a href="#" class="nav-link" data-page="contact">Contact & Bookings</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="cart-icon" style="position: relative;">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="cart-count">3</div>
+                    </div>
+                    <div class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="page-section active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Fresh Poultry farm From Our Family to Yours</h1>
+                <p>Experience the difference of truly fresh, free-range poultry raised with care on our family farm.
+                 Quality you can taste in every bite.</p>
+                <button class="cta-button" data-page="poultry">Shop Fresh Poultry</button>
+            </div>
+        </section>
+
+        <!-- Service Doors Section -->
+        <section class="container">
+            <div class="service-doors">
+                <div class="service-door door-poultry">
+                    <div class="door-content">
+                        <div class="door-icon">🐓</div>
+                        <h2 class="door-title">Fresh Poultry</h2>
+                        <p class="door-description">Premium quality chicken (white & red), turkey, and eggs in different sizes sourced directly from our family farm.</p>
+                        <button class="door-button" data-page="poultry">Shop Now</button>
+                    </div>
+                </div>
+                <div class="service-door door-catering">
+                    <div class="door-content">
+                        <div class="door-icon">🍿</div>
+                        <h2 class="door-title">Snack Catering</h2>
+                        <p class="door-description">Delicious snack catering for events, meetings, and special occasions. Perfect bites for any gathering.</p>
+                        <button class="door-button" data-page="catering">View Snack Menu</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Farm to Table Tracker -->
+        <section class="tracker-section">
+            <div class="container">
+                <h2 class="section-title">From Farm to Table</h2>
+                <div class="tracker">
+                    <div class="tracker-step">
+                        <div class="step-icon">🌱</div>
+                        <div class="step-title">Natural Farming</div>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="step-icon">🐔</div>
+                        <div class="step-title">Free-Range Poultry</div>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="step-icon">🔍</div>
+                        <div class="step-title">Quality Check</div>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="step-icon">🚚</div>
+                        <div class="step-title">Fresh Delivery</div>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="step-icon">🍳</div>
+                        <div class="step-title">Your Kitchen</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="products-section container">
+            <h2 class="section-title">Our Farm Products</h2>
+            <div id="poultry-products" class="products-grid">
+                <!-- Products will be loaded from JSON -->
+            </div>
+        </section>
+
+        <!-- Unique Features Section -->
+        <section class="features-section container">
+            <h2 class="section-title">What Makes Us Unique</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌿</div>
+                    <h3 class="feature-title">Pasture-Raised Poultry</h3>
+                    <p class="feature-description">Our birds roam freely on open pastures, enjoying natural diets and sunlight for healthier, tastier meat.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3 class="feature-title">Farm-Fresh Delivery</h3>
+                    <p class="feature-description">We deliver directly from our farm to your door, ensuring maximum freshness and quality.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍳</div>
+                    <h3 class="feature-title">Farm Kitchen Recipes</h3>
+                    <p class="feature-description">Get exclusive recipes from our farm kitchen to make the most of our premium poultry products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Farm Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Our Farm">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="about-title">Our Farming Story</h2>
+                        <p class="about-description">A small chicken farm began with just a few hens and a lot of care. By raising healthy birds and selling fresh eggs to the community, it grew into a trusted source of food and livelihood.</p>
+                        <p class="about-description">We believe that better farming means better food. That's why we never use antibiotics or hormones, and why our birds are free to forage and express their natural behaviors.</p>
+                        <button class="cta-button" data-page="about">Learn More About Our Farm</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Farm Values Section -->
+        <section class="values-section">
+            <div class="container">
+                <h2 class="section-title">Our Farming Values</h2>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <div class="value-icon">🌎</div>
+                        <h3 class="value-title">Sustainable Farming</h3>
+                        <p class="value-description">We practice regenerative agriculture to protect our land for future generations.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">❤️</div>
+                        <h3 class="value-title">Animal Welfare</h3>
+                        <p class="value-description">Our birds enjoy spacious living conditions and natural behaviors.</p>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">🏆</div>
+                        <h3 class="value-title">Quality First</h3>
+                        <p class="value-description">We never compromise on quality, from farm to your table.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Poultry Shop Page -->
+    <section id="poultry" class="page-section">
+        <div class="container">
+            <h2 class="section-title">Fresh Poultry Shop</h2>
+            <p>Browse our selection of premium farm-fresh poultry products, including different chicken types and egg sizes.</p>
+            <div id="poultry-shop-products" class="products-grid">
+                <!-- Products will be loaded from JSON -->
+            </div>
+            <button class="cta-button" data-page="home" style="margin-top: 40px;">Back to Home</button>
+        </div>
+    </section>
+
+    <!-- Catering Page -->
+    <section id="catering" class="page-section">
+        <div class="container">
+            <h2 class="section-title">Snack Catering Menu</h2>
+            <p>Perfect for events, meetings, and gatherings. Choose from our delicious snack options.</p>
+            
+            <div class="catering-menu">
+                <div class="menu-categories">
+                    <button class="category-button active" data-category="all">All Snacks</button>
+                    <button class="category-button" data-category="savory">Savory Snacks</button>
+                    <button class="category-button" data-category="sweet">Sweet Treats</button>
+                    <button class="category-button" data-category="drinks">Beverages</button>
+                </div>
+                
+                <div id="catering-items" class="menu-items">
+                    <!-- Catering items will be loaded from JSON -->
+                </div>
+            </div>
+            
+            <button class="cta-button" data-page="home" style="margin-top: 40px;">Back to Home</button>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page-section">
+        <div class="container">
+            <h2 class="section-title">Contact & Bookings</h2>
+            <p>Get in touch with us for orders, catering inquiries, or any questions about our farm products.</p>
+            
+            <div class="contact-section">
+                <div class="contact-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select id="subject" class="form-select" required>
+                                <option value="">Select a subject</option>
+                                <option value="poultry-order">Poultry Order</option>
+                                <option value="catering-inquiry">Catering Inquiry</option>
+                                <option value="farm-visit">Farm Visit</option>
+                                <option value="general-question">General Question</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <button type="submit" class="form-submit">Send Message</button>
+                        </div>
+                    </form>
+                    
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <h3 class="info-title">Visit Our Farm</h3>
+                            <p>5 Awonusi street<br>off ait road, algbado lagos.</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <h3 class="info-title">Call Us</h3>
+                            <p>08023163218<br>Mon-Fri: 8am-6pm</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">✉️</div>
+                            <h3 class="info-title">Email Us</h3>
+                            <p><br>orders@farmandfeast.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="cta-button" data-page="home" style="margin-top: 40px;">Back to Home</button>
+        </div>
+    </section>
+
+    <section id="about" class="page-section">
+        <div class="container">
+            <h2 class="section-title">About Our Farm</h2>
+            <p>A small chicken farm started with just a few hens. Today, it provides fresh eggs and supports the community with hard work and care. Each morning, the hens cluck and roam freely, 
+            reminding the farmer why the effort matters. Over time, the farm grew into a trusted source of food, brought neighbors together, and inspired others to start small but dream big. 
+            What began as a humble venture became a symbol of perseverance, dedication, and the simple joys of honest work.</p>
+            <button class="cta-button" data-page="home">Back to Home</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">FOLUKEST GOLDEN FARM & FOLEST SERVICES</h3>
+                    <p>Bringing fresh farm poultry and exceptional snack catering to your table since 2010.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                        <li><a href="#" class="nav-link" data-page="poultry">Fresh Poultry Shop</a></li>
+                        <li><a href="#" class="nav-link" data-page="catering">Snack Catering</a></li>
+                        <li><a href="#" class="nav-link" data-page="recipes">Recipes & Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+                        <li><a href="#" class="nav-link" data-page="contact">Contact & Bookings</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Subscribe to receive updates, recipes, and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-button"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FOLUKEST GOLDEN FARM & FOLEST SERVICES. All rights reserved.</p>
+                <p>Website designed by ELIZABETH OGUNNIRAN</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
