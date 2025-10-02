@@ -180,4 +180,5 @@ Potential improvements for production:
 **Folukest golden farm and folest services** 
 
 
-ringing farm-fresh quality and exceptional catering to your table since 2
+
+ringing farm-fresh quality and exceptional catering to
