@@ -177,14 +177,7 @@ Potential improvements for production:
 - SEO optimization
 - Analytics tracking
 
-## 📄 License
+**Folukest golden farm and folest services** 
 
-This project is for demonstration purposes. Please ensure you have proper licenses for any images used in production.
 
-## 👥 Support
-
-For questions or issues with the implementation, please refer to the code comments or contact the development team.
-
----
-
-**Farm & Feast** - Bringing farm-fresh quality and exceptional catering to your table since 2010.
+ringing farm-fresh quality and exceptional catering to your table since 2
